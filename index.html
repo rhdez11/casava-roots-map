@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casava Roots Map</title>
+  <!-- // Add Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <!-- // Add Montserrat font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="side" id="locations-list">
+      <div class="search">
+        <div class="search-container">
+          <input type="text" placeholder="Buscar Tienda" class="input-search" id="search-bar">
+          <button type="button" class="input-btn" onclick="search()">
+            <span class="material-symbols-rounded">
+              search
+            </span>
+          </button>
+        </div>
+      </div>
+      <div id="filter-info">
+        <span id="filter-showing"></span>
+        <span id="filter-show-all" class="show-all" onclick="showAllListItems()">Mostrar todas.</span>
+      </div>
+      <div id="empty-state">
+        <div>No hay sucursales en esta area.</div>
+        <div class="show-all" onclick="showAllListItems()">Mostrar todas.</div>
+      </div>
+    </div>
+    <div class="side" id="map-side">
+      <div id="map"></div>
+    </div>
+  </div>
+  <!-- // Add the Google Maps clustermaker script -->
+  <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+  <!-- // Add the Google Maps script -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXM8AW3tHSxSvblsSAXLfejwTWDrJ1WZs"></script>
+  <script src="script.js" type="module"></script>
+</body>
+</html>

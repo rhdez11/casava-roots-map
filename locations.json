@@ -1,0 +1,95 @@
+
+{
+  "locations" : [
+    {
+      "id" : "1",
+      "name": "Cassava Roots Coyoacán",
+      "address": "Av Miguel Hidalgo 225, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX, Mexico",
+      "img": "https://m.media-amazon.com/images/I/61ICkCk85gL._CR0,27,1387,1387_UX256.jpg",
+      "coordinates": {
+        "lat": 19.3559681, "lng": -99.1582012
+      },
+      "label": "A",
+      "schedule": [
+        { "day": "monday", "hours": "10am - 9pm" },
+        { "day": "tuesday", "hours": "10am - 9pm" },
+        { "day": "wednesday", "hours": "10am - 9pm" },
+        { "day": "thursday", "hours": "10am - 9pm" },
+        { "day": "friday", "hours": "10am - 9pm" }
+      ],
+      "mapUrl": "https://www.google.com/search?q=cassava+roots+coyoacan&rlz=1C5CHFA_enSV995SV995&tbm=lcl&sxsrf=ALiCzsbsAXR6lzZRgpU_sLFSp6EUXQKU3Q%3A1667585299021&ei=E1VlY_J4k5XBuQ-D3ZeYAw&oq=cassava+roots+coyo&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMYADIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIGCAAQFhAeMgUIABCGAzIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6BAgjECc6BQgAEJECOgUIABCABFCsAVjGEWCLGWgAcAB4AIABmAGIAYwGkgEDMC42mAEAoAEBwAEB&sclient=gws-wiz-local#rlfi=hd:;si:17690867636137492180,l,ChZjYXNzYXZhIHJvb3RzIGNveW9hY2FuIgOIAQFI8bf8rNSVgIAIWi4QABABGAAYARgCIhZjYXNzYXZhIHJvb3RzIGNveW9hY2FuKgYIAhAAEAEyAmVzkgEQYnViYmxlX3RlYV9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VONWJrNTZOMHhCRUFF;mv:[[19.350330877319024,-99.15869444730772],[19.349970922680967,-99.15907595269229]]"
+    },
+    {
+      "id" : "2",
+      "name": "Cassava Roots Reforma",
+      "address": "Av Miguel Hidalgo 225, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX, Mexico",
+      "img": "https://m.media-amazon.com/images/I/61ICkCk85gL._CR0,27,1387,1387_UX256.jpg",
+      "coordinates": {
+        "lat": 16.4717243, "lng": -98.7031022
+      },
+      "label": "B",
+      "schedule": [
+        { "day": "monday", "hours": "10am - 9pm" },
+        { "day": "tuesday", "hours": "10am - 9pm" },
+        { "day": "wednesday", "hours": "10am - 9pm" },
+        { "day": "thursday", "hours": "10am - 9pm" },
+        { "day": "friday", "hours": "10am - 9pm" }
+      ],
+      "mapUrl":"google.com"
+    },
+    {
+      "id" : "3",
+      "name": "Cassava Roots del Valle",
+      "address": "Av Miguel Hidalgo 225, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX, Mexico",
+      "img": "https://m.media-amazon.com/images/I/61ICkCk85gL._CR0,27,1387,1387_UX256.jpg",
+      "coordinates": {
+        "lat": 19.3762013, "lng": -99.2476357
+      },
+      "label": "C",
+      "schedule": [
+        { "day": "monday", "hours": "10am - 9pm" },
+        { "day": "tuesday", "hours": "10am - 9pm" },
+        { "day": "wednesday", "hours": "10am - 9pm" },
+        { "day": "thursday", "hours": "10am - 9pm" },
+        { "day": "friday", "hours": "10am - 9pm" }
+      ],
+      "mapUrl":"google.com"
+    },
+    {
+      "id" : "4",
+      "name": "Cassava Roots McAllen",
+      "address": "2200 S 10th St Kiosk KI36, McAllen, TX 78503, United States",
+      "img": "https://m.media-amazon.com/images/I/61ICkCk85gL._CR0,27,1387,1387_UX256.jpg",
+      "coordinates": {
+        "lat": 26.1853778, "lng": -98.2363557
+      },
+      "label": "D",
+      "schedule": [
+        { "day": "monday", "hours": "10am - 9pm" },
+        { "day": "tuesday", "hours": "10am - 9pm" },
+        { "day": "wednesday", "hours": "10am - 9pm" },
+        { "day": "thursday", "hours": "10am - 9pm" },
+        { "day": "friday", "hours": "10am - 9pm" }
+      ],
+      "mapUrl":"google.com"
+    },
+    {
+      "id" : "5",
+      "name": "Cassava Roots España",
+      "address": "Av. de Concha Espina, 1, 28036 Madrid, Spain",
+      "img": "https://m.media-amazon.com/images/I/61ICkCk85gL._CR0,27,1387,1387_UX256.jpg",
+      "coordinates": {
+        "lat": 40.4072782, "lng": -3.6751433
+      },
+      "label": "E",
+      "schedule": [
+        { "day": "monday", "hours": "10am - 9pm" },
+        { "day": "tuesday", "hours": "10am - 9pm" },
+        { "day": "wednesday", "hours": "10am - 9pm" },
+        { "day": "thursday", "hours": "10am - 9pm" },
+        { "day": "friday", "hours": "10am - 9pm" }
+      ],
+      "mapUrl":"google.com"
+    }
+  ]
+}
