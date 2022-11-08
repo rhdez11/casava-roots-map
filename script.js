@@ -27,6 +27,7 @@ window.onload = async (event) => {
   // locations = await fetch('./locations.json').then(async response => await response.json())
   locations = locationsData.locations;
   initMap()
+  await showLocations();
 
   // console.log(icon, 'icon');
 
@@ -67,8 +68,6 @@ window.onload = async (event) => {
       },
     });
   }
-
-  await showLocations();
   console.log(coordinates, 'coordinates');
 
   window.addEventListener('resize', () => {
@@ -183,7 +182,7 @@ const changeFilterInfo = (filteredLength) => {
   } else {
     filterShowingInfo.innerHTML = '';
     showAllFilterBtn.style.display = 'none';
-    emptyState.style.display = 'block';
+    emptyState.style.display = 'flex';
   }
 
 }

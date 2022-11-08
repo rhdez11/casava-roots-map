@@ -34,9 +34,11 @@ body{
 }
 
 #empty-state{
-  padding-top: 100px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
   display: none;
+  flex-direction: column;
 }
 
 .search{
