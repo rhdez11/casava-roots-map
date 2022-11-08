@@ -11,6 +11,8 @@ var bounds = new Map();
 var isLocated = false
 
 var windowWidth;
+
+var searchbar;
 var filterShowingInfo;
 var showAllFilterBtn;
 var emptyState;
@@ -32,7 +34,7 @@ window.onload = async (event) => {
   showAllFilterBtn = document.getElementById('filter-show-all');
   emptyState = document.getElementById('empty-state');
 
-  const searchbar = document.getElementById("search-bar");
+  searchbar = document.getElementById("search-bar");
   searchbar.addEventListener("keyup", function (event) {
     search();
   });
@@ -81,7 +83,7 @@ window.onload = async (event) => {
     }
   });
 };
- 
+
 const initMap = async () => {
   console.log(locations, 'initMap');
 
@@ -195,6 +197,7 @@ const showAllListItems = async () => {
   filterShowingInfo.innerHTML = `Mostrando <strong>${items.length}</strong> de ${items.length} tiendas.`;
   map.setCenter({ lat: 30, lng: 310 });
   map.setZoom(document.documentElement.clientWidth < 660 ? 2 : 3);
+  searchbar.value = '';
 }
 window.showAllListItems = showAllListItems;
 
