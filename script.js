@@ -110,7 +110,7 @@ const initMap = async () => {
     });
     markers.push(marker);
     marker.addListener("click", () => {
-      map.setZoom(12);
+      map.setZoom(16);
       map.setCenter(marker.getPosition());
     });
   })
@@ -264,6 +264,8 @@ const showLocations = async () => {
   days.set('wednesday', 'miercoles');
   days.set('thursday', 'jueves');
   days.set('friday', 'viernes');
+  days.set('saturday', 'sabado');
+  days.set('sunday', 'domingo');
 
   const list = document.getElementById('locations-list');
   const items = document.createElement('div');

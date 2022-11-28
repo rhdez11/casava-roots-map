@@ -132,8 +132,8 @@ body{
 
 .list-item-schedule{
   width: 40%;
-  min-width: 200px;
-  max-width: 220px;
+  min-width: 240px;
+  max-width: 240px;
   margin-bottom: 10px;
   display: none;
   font-size: 14px;
